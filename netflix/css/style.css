@@ -14,7 +14,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -61,7 +61,7 @@ main .destaque{
 
 .destaque .sinopse{
     margin-bottom: 40px;
-    margin-bottom: 40px;
+    margin-top: 5px;
 }
 
 .destaque .titulo{
@@ -80,7 +80,6 @@ main .destaque{
     padding: 15px 30px;
 
     margin-right: 15px;
-    margin-top: 15px;
     font-size: 12px;
 
     cursor: pointer;
@@ -105,3 +104,13 @@ main .destaque{
 }
 
 /*SELEÇÃO DE FILMES */
+
+.box-filme{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.carousel{
+    margin-top: 5px;
+}

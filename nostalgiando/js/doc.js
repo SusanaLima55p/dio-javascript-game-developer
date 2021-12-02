@@ -1,3 +1,5 @@
+$('html, body').animate({scrollTop: 0})
+
 $('.carousel-destaque').owlCarousel({
     loop:true,
     margin:10,
@@ -25,4 +27,14 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+let link = $('.link')
+
+link.on('click', function(){
+let seletor = $(this).attr('href')
+let posicao = $(seletor).offset().top
+$('html, body').animate({scrollTop: posicao-60},1500)
+})
+
+
 
